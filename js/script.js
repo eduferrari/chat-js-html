@@ -81,10 +81,12 @@ const handleLogin = (event) => {
     login.style.display = "none"
     chat.style.display = "flex"
 
-    websocket = new WebSocket("ws://localhost:8080")
+    websocket = new WebSocket("wss://chat.darkocode.com.br")
     websocket.onmessage = processMessage
 
-    console.log(user)
+    websocket.addEventListener("error", (error) => {
+        console.log("WebSocket error: ", error);
+    });
 }
 
 const sendMessage = (event) => {

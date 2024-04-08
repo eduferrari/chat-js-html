@@ -1,14 +1,14 @@
 {
-	"name": "backend",
+	"name": "chat-js-html",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "Objetivo foi criar um chat básico usando Websocket + NodeJS para aprender um pouco mais sobre",
+	"main": "app.js",
 	"scripts": {
 		"start": "node app.js",
 		"dev": "node --watch app.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Eduardo Ferrari | DarkoCode",
 	"license": "ISC",
 	"dependencies": {
 		"dotenv": "^16.4.5",
