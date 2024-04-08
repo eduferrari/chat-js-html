@@ -1,0 +1,14 @@
+﻿.vs/
+project.lock.json
+project.fragment.lock.json
+*.tmp
+*.tmp_proj
+*.log
+*.cachefile
+.sass-cache/
+*.pubxml
+*.publishproj
+*.nupkg
+**/[Pp]ackages/*
+node_modules/
+*.refresh
